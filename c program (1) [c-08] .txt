@@ -1,0 +1,31 @@
+//first program//
+#include <stdio.h>
+
+     int main()
+          {
+          printf("hello teacher");
+          printf("welcome to c programing\n");  /*  \n- is for the next line*/
+
+          return 0;
+          }
+
+output:
+
+    hello teacher
+    welcome to c programing
+
+
+*Assignment:
+
+#include <stdio.h>
+
+ int main()
+         {
+           printf("welcome to the world of c");
+   
+           return 0;
+         }
+
+output:
+
+   welcome to the world of c
