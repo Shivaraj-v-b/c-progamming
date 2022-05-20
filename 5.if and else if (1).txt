@@ -1,0 +1,89 @@
+
+#include <stdio.h>
+
+int main()
+{
+    
+int a,b,sum;
+printf("enter the value of a and b\n");
+scanf("%d%d",&a,&b);
+sum=a+b;
+printf("the sum of a and b is %d\n",sum);
+
+if(sum>20)
+{
+    printf("sum is greater than 20\n");
+    
+}
+else if(sum>10)
+{
+    printf("sum is greater than 10 and less than 20\n");
+}
+else
+{
+    printf("sum is less than 10 \n");
+}
+
+return 0;
+}
+
+output:user based
+
+Assignment:1
+
+#include <stdio.h>
+
+int main()
+{
+ int a,b;
+ printf("enter the value of a and b\n");
+ scanf("%d%d",&a,&b);
+ if(a>b)
+ {
+     printf("a is greater than b\n");
+ }
+ else
+ {
+     printf("a is less tha b\n");
+ }
+ return 0;
+}
+
+output:user based
+
+:2
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int a,b,c;
+    printf("enter the value of a,b and c\n");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    if(a>b&&a>c)
+    {
+        printf("a =%d is the greatest amoung a,b and c\n",a);
+    }
+      if(b>a&&b>c)
+    {
+        printf("b =%d is the greatest amoung a,b and c\n",b);
+    }
+    
+      if(c>b&&c>a)
+     
+    {
+        printf("c =%d is the greatest amoung a,b and c\n",c);
+    }
+    
+    
+    return 0;
+}
+
+output:user based
+
+
+
+
+
