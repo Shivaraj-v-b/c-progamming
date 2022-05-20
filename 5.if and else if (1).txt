@@ -51,7 +51,7 @@ int main()
 
 output:user based
 
-:2
+Assignment:2
 
 #include <stdio.h>
 
