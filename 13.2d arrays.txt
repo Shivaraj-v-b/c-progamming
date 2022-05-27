@@ -1,0 +1,79 @@
+
+#include <stdio.h>
+
+int main()
+{
+    
+int a[2][3],b[2][3],c[2][3],i,j;
+printf("enter the elements of 1rst matrix\n");
+for(i=0;i<2;i++)
+for(j=0;j<3;j++)
+scanf("%d",&a[i][j]);
+for(i=0;i<2;i++)
+for(j=0;j<3;j++)
+printf("%3d\n",a[i][j]);
+printf("\n");
+
+
+printf("enter the elements of 2nd matrix\n");
+for(i=0;i<2;i++)
+for(j=0;j<3;j++)
+scanf("%d",&b[i][j]);
+for(i=0;i<2;i++)
+for(j=0;j<3;j++)
+printf("3%d\n",b[i][j]);
+
+
+printf("the addition of matrices are:\n");
+for(i=0;i<2;i++)
+for(j=0;j<3;j++)
+printf("%3d",a[i][j]+b[i][j]);
+
+
+
+    return 0;
+}
+output:user based
+
+
+assignment:
+
+
+#include <stdio.h>
+
+int main()
+{
+    int x,y,i,j;
+
+    
+    printf("enter the number of rows\n");
+    scanf("%d",&x);
+    printf("enter the number of columns\n");
+    scanf("%d",&y);
+    printf("enter the first set of numbers\n");
+    
+    int a[x][y],b[x][y];
+    
+    for(i=0;i<x;i++)
+    for(j=0;j<y;j++)
+    scanf("%d",&a[i][j]);
+     
+    for(i=0;i<x;i++)
+    for(j=0;j<y;j++)
+    printf("%d\n",a[i][j]);
+    
+    
+    printf("enter the second set of numbers\n");
+    for(i=0;i<x;i++)
+    for(j=0;j<y;j++)
+    scanf("%d",&b[i][j]);
+     
+    for(i=0;i<x;i++)
+    for(j=0;j<y;j++)
+    printf("%d\n",b[i][j]);
+    
+    return 0;
+    
+}
+
+output:user based

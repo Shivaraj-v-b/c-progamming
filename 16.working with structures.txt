@@ -1,0 +1,25 @@
+
+#include<stdio.h>
+   struct student
+   {
+       int eng;
+       int maths;
+       int science;
+       
+   };
+   int main ()
+       {
+       
+       int total;
+       struct student stud;
+       stud.eng=70;
+       stud.maths=70;
+       stud.science=70;
+       
+   total=stud.eng+stud.maths+stud.science;
+   printf("%d",total);
+    return 0;
+    
+}
+
+output:210

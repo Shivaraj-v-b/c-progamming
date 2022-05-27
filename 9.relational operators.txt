@@ -1,0 +1,72 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b;
+    printf("enter integer value of a and b\n");
+    scanf("%d%d",&a,&b);
+    
+    if(a>b)
+    {
+        printf("a is greater than b\n");
+    }
+    else if(a<b)
+    {
+        printf("a is less than b\n");
+    }
+    if(a>=b)
+    {
+        printf("a is greater than equal to b\n");
+    }
+    else if(a<=b)
+    {
+        printf("a is less than equal to b\n");
+    }
+     if(a==b)
+    {
+        printf("a is equal to b\n");
+    }
+    else if(a!=b)
+    {
+        printf("a is not equal to b\n");
+    }
+    
+    return 0;
+}
+
+output:
+user based
+
+Assignment:
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    printf("a,b and c enter your marks out of 100\n");
+    scanf("%d%d%d",&a,&b,&c);
+    
+    if(a>b&&a>c)
+    {
+        printf("a has scored the most marks\n");
+    }
+    
+     if(b>a&&b>c)
+    {
+        printf("b has scored the most marks\n");
+    }
+    
+     if(c>a&&c>b)
+    {
+        printf("c has scored the most marks\n");
+    }
+    
+    
+    
+    return 0;
+}
+
+output:user based

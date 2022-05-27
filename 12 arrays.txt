@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+
+int main()
+{
+  int star [4]={1,2,3};
+  int sum =star[0] +star[1] +star[2];
+  printf("%d",sum);
+
+    return 0;
+}
+ output: 6
