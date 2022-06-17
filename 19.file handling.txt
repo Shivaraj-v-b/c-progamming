@@ -1,0 +1,39 @@
+
+#include <stdio.h>
+
+int main()
+{
+   FILE *fp;
+   fp=fopen("advait.txt","w");
+   fprintf(fp,"welcome \n");
+   fprintf(fp,"this is an test example\n");
+   fclose(fp);
+    return 0;
+}
+
+output:
+welcome 
+this is an test example
+
+
+
+#include <stdio.h>
+
+int main()
+{
+   FILE *fp;
+   char c;
+   fp=fopen("advait.txt\n","w");
+   if (fp==NULL)
+   printf("file does not exist\n");
+   else
+   {
+       while (c!=EOF)
+       {
+           c=getc(fp);
+           putchar(c);
+       }
+       fclose(fp);
+   }
+    return 0;
+}

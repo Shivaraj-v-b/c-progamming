@@ -1,0 +1,37 @@
+
+int main()
+{
+   long int num =10;
+   long int *ptr;
+   ptr=&num;
+   printf("num's address : %p\n ",&ptr);
+   
+   printf("pointer's size:%ld bytes\n",sizeof(ptr));
+   printf("pointer's value:%p\n",ptr);
+   printf("value pointed to: %ld\n",*ptr);
+
+    return 0;
+}
+
+output:
+num's address : 0x7ffcd8b2c160
+ pointer's size:8 bytes
+pointer's value:0x7ffcd8b2c158
+value pointed to: 10
+
+
+assignment:
+
+#include <stdio.h>
+
+int main()
+{
+   int a=18;
+  int*ptr;
+  printf("num's adress :%p\n",&a);
+  printf("pointer's size is: %ld bytes\n",sizeof(ptr));
+    return 0;
+}
+ output:
+num's adress :0x7ffde1382614
+pointer's size is: 8 bytes
