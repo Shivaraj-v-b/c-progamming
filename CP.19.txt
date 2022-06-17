@@ -1,0 +1,15 @@
+//string copy
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+    char source[]="Ice";
+    char target[10];
+    strcpy(target,source);
+    printf("source string=%s\n",source);
+    printf("target string=%s\n",target);
+}
+
+OPTPUT:
+source string=Ice
+target string=Ice
